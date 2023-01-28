@@ -89,8 +89,17 @@ main{
     display: flex;
     flex-direction: row;
     font-size: small;
+    justify-content: flex-start;
     
 }
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .btn-chat-with-us{
     width: 130px;
     height: 40px;
@@ -116,6 +125,7 @@ main{
     color: #838282;
 }
 
+
 .hero{
     display: flex;
     justify-content: center;
@@ -138,6 +148,17 @@ main{
     justify-content: center;
 
 }
+
+.dot {
+    height: 9px;
+    width: 6px;
+    border-radius: 60%;
+    background-color: #0850f8;
+    align-items: center;
+    
+}
+
+
 /*  *//* END Main Styling *//* END Main Styling *//* END Main Styling */
 
 /* section two start */
@@ -149,12 +170,6 @@ main{
     
 }
 
-.txt-2{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
-}
 
 .section-two-bottom{
     display: flex;
@@ -164,6 +179,49 @@ main{
 }
 
 
+.txt2{
+    display: flex;
+}
+
+
 /* Start FOOTER Styling */
+
+footer{
+    display: flex;
+    flex-direction: row;
+    padding: 6Vh 0;
+    margin-top: 6px;
+    background-color:#0750F8 ;
+    max-width: 100%;
+    color: #ffffff;
+    justify-content: center;
+    
+    
+}
+
+.footer-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.bottom-btn-white{
+    width: 100px;
+    height: 35px;
+    background-color: #ffff;
+    color: #0850f8;
+    border-radius: 6px;
+    padding: 6px 6px;
+    border: 1px solid #0850f8;
+}
+
+.list-inline{
+    display: flex;
+    flex-direction: column;
+}
+
+
 
 /* End FOOTER STYLING */
