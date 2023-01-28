@@ -3,6 +3,9 @@
 
 }
 
+
+
+/* start header styling */
 header{
     display: flex;
     width: 90%;
@@ -10,7 +13,6 @@ header{
     align-items: center;
     justify-content: space-between;
 }
-
 .top-nav{
     flex-grow: 1;
 }
@@ -35,11 +37,6 @@ color: black;
     margin: 0 3px;
 }
 
-main{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
 .btn-try-it-free{
     width: 75px;
     background-color: #0850f8;
@@ -59,6 +56,20 @@ main{
     border: 1px solid #0850f8;
 }
 
+
+
+/* END HEADER STYLING */
+
+
+/* Start MAIN Styling  */
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
 .main-left{
     display: flex;
     flex-direction: column;
@@ -69,28 +80,40 @@ main{
 .main-left-item{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    color: #838282;
+    
 }
 
+.main-left-item li{
+    display: flex;
+    flex-direction: row;
+    font-size: small;
+    
+}
 .btn-chat-with-us{
-    width: 75px;
+    width: 130px;
+    height: 40px;
     background-color: #ffff;
     color: #0850f8;
-    border-radius: 5px;
-    padding: 4px 5px;
+    border-radius: 6px;
+    padding: 6px 6px;
     border: 1px solid #0850f8;
+    
 }
 
 .btn-sign-up-free{
-    width: 75px;
+    height: 40px;
+    width: 130px;
     background-color: #0850f8;
     color: white;
-    border-radius: 5px;
+    border-radius: 6px;
     border: 1px solid #0850f8;
-    padding: 4px 5px;
+    padding: 6px 6px;
 }
 
 .txt{
-    color: #838282
+    color: #838282;
 }
 
 .hero{
@@ -115,3 +138,32 @@ main{
     justify-content: center;
 
 }
+/*  *//* END Main Styling *//* END Main Styling *//* END Main Styling */
+
+/* section two start */
+.section-two-top{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.txt-2{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.section-two-bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+
+/* Start FOOTER Styling */
+
+/* End FOOTER STYLING */
