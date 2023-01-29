@@ -5,7 +5,7 @@
 
 
 
-/* start header styling */
+/* start header styling *//* start header styling *//* start header styling *//* start header styling */
 header{
     display: flex;
     width: 90%;
@@ -58,10 +58,10 @@ color: black;
 
 
 
-/* END HEADER STYLING */
+/* END HEADER STYLING *//* END HEADER STYLING *//* END HEADER STYLING *//* END HEADER STYLING */
 
 
-/* Start MAIN Styling  */
+/* Start MAIN Styling  *//* Start MAIN Styling  *//* Start MAIN Styling  */
 
 main{
     display: flex;
@@ -161,7 +161,7 @@ main{
 
 /*  *//* END Main Styling *//* END Main Styling *//* END Main Styling */
 
-/* section two start */
+/* section two start *//* section two start *//* section two start */
 .section-two-top{
     display: flex;
     flex-direction: column;
@@ -185,17 +185,17 @@ main{
 
 
 
-/* Start section-three Styling */
+/* Start section-three Styling *//* Start section-three Styling *//* Start section-three Styling */
 
 
 
 
 
 
-/* END section-three Styling */
+/* END section-three Styling *//* END section-three Styling *//* END section-three Styling */
 
 
-/* Start FOOTER Styling */
+/* Start FOOTER Styling *//* Start FOOTER Styling *//* Start FOOTER Styling */
 
 footer{
     display: flex;
@@ -248,4 +248,4 @@ footer{
 }
 
 
-/* End FOOTER STYLING */
+/* End FOOTER STYLING *//* End FOOTER STYLING *//* End FOOTER STYLING */
