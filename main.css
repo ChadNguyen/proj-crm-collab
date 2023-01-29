@@ -184,6 +184,17 @@ main{
 }
 
 
+
+/* Start section-three Styling */
+
+
+
+
+
+
+/* END section-three Styling */
+
+
 /* Start FOOTER Styling */
 
 footer{
@@ -195,6 +206,7 @@ footer{
     max-width: 100%;
     color: #ffffff;
     justify-content: center;
+    align-items: center;
     
     
 }
@@ -202,9 +214,11 @@ footer{
 .footer-content{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    justify-content: space-evenly;
+    
 }
+
 
 
 .bottom-btn-white{
@@ -217,11 +231,21 @@ footer{
     border: 1px solid #0850f8;
 }
 
-.list-inline{
-    display: flex;
-    flex-direction: column;
+.dot2{ 
+    height: 8px;
+    width: 7px;
+    border-radius: 45%;
+    background-color: #ffffff;
+    align-items: center;  
 }
 
+.row2{
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+}
 
 
 /* End FOOTER STYLING */
