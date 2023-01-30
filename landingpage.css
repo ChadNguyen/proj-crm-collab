@@ -215,7 +215,9 @@ main{
     display: flex;
     align-items: center;
     border-radius: 15px;
-    
+    max-width: 900px;
+    max-height: 800px;
+    overflow: hidden;
     
     
 }
@@ -229,10 +231,21 @@ main{
 
 .section-three-left img{
     height: auto;
-    max-height: 750px;
-    max-width: 750px;
+    max-height: 600px;
+    max-width: 600px;
     min-width: 533px;
     min-height: 321px;
+    justify-content: center;
+    
+}
+
+.section-three-right{
+    background-color: #0850f8;
+    color: #ffffff;
+    flex: 1;
+    align-self: stretch;
+    
+
 }
 
 
